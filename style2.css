@@ -1,0 +1,51 @@
+body{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+.header{
+    padding-left: 50px;
+    display: flex;
+	justify-content: space-between;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: #ADEFD1FF;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	box-shadow: 0 5px 10px black;
+	text-shadow: 0 10px 15px black;
+    border-radius: 7px;
+    color: #00203FFF;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+}
+
+.real{
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px;
+    padding-left: 60px;
+    margin-right: 600px;
+}
+image{
+    padding-left: 300px;
+}
+
+button{
+    background-color: #ADEFD1FF;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    color: #00203FFF;
+}
+.trans{
+    animation: transaction1 1.5s;
+}
+@keyframes transaction1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
